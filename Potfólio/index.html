@@ -1,0 +1,192 @@
+<DOCTYPE HTML>
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Portfólio pessoal" />
+        <meta name="keywords" content="Desenvolvedor, Programador" />
+        <meta name="author" content="Kallas Lima Antunes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--title-->
+        <title>Kallas Antunes | Desenvolvedor Full Stack</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" href="index.css" />
+        <script src="https://use.fontawesome.com/d48e94b070.js"></script>
+    </head>
+
+    <body>
+        <!-----------------------------------------Navbar begins------------------------------------>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1f1f1f">
+            <a class="navbar-brand" href="#"><img src="images/K.png" alt="logo" id="K" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!--onclick="increaseMargin()"-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li data-target="#myCarousel" data-slide-to="0" class="nav-item" onclick="changeColor(0)">
+                        <p id="first" class="nav-link" style="color: #af2b5a">Home</p>
+                    </li>
+                    <li class="nav-item" data-target="#myCarousel" data-slide-to="1" onclick="changeColor(1)">
+                        <p class="nav-link">Sobre mim</p>
+                    </li>
+                    <li data-target="#myCarousel" data-slide-to="2" class="nav-item" onclick="changeColor(2)">
+                        <p class="nav-link">Habilidades</p>
+                    </li>
+                    <li data-target="#myCarousel" data-slide-to="3" class="nav-item" onclick="changeColor(3)">
+                        <p class="nav-link">Contato</p>
+                    </li>
+                </ul>
+                <a id="flag" href="english.html">
+                    <img src="images/united-states.png" alt="English" id="usa" />
+                </a>
+            </div>
+        </nav>
+        <!-----------------------------------------Navbar ends------------------------------------>
+        <!------------------------------------Vertical Slider begins-------------------------->
+        <section class="slide-wrapper">
+            <div class="container">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="fill" style="background-color: #1a1a1a">
+                                <h2 id="home">Kallas Lima Antunes</h2>
+                                <h3 id="slogan">Mais do que um programador, mais do que um desenvolvedor, um
+                                    solucionador
+                                    de problemas.</h3>
+                            </div>
+                            <a style="font-size: 120%;" id="seeMoreButton" class="carousel-control-next" role="button"
+                                data-target="#myCarousel" data-slide-to="1" onclick="changeColor(1)">Ver mais
+                                <img style="position:relative;right: -15px;" aria-hidden="true"
+                                    src="images/arrow-down-sign-to-navigate-black.png" />
+                            </a>
+                        </div>
+                        <div class="carousel-item" style>
+                            <div class="fill" style="background-color: #1a1a1a">
+                                <h1>Sobre mim</h1>
+                                <h3>Quem sou eu?</h3>
+                                <p>
+                                    Estudante de Engenharia de Computação na PUC Minas e amante de idiomas. Adoro
+                                    conhecer novas
+                                    culturas, já morei nos Estados Unidos, e ainda quero viajar e conhecer o mundo.
+                                    Sou uma pessoa dedicada e ambiciosa, tenho grandes planos para minha carreira, e dou
+                                    meu máximo todos os dias para alcançar meus objetivos. Apaixonado pela tecnologia, e
+                                    tenho certeza de que estou no curso certo. Gosto de me exercitar, jogar videogame,
+                                    ver filmes e séries, e me divertir no geral.
+                                </p>
+                                <h3>E minha relação com a tecnologia?</h3>
+                                <p>
+                                    Adoro tudo sobre computadores, desde o hardware, na parte de arquitetura de
+                                    computadores e de Internet das Coisas, até o front-end, ao fazer sites, e também o
+                                    backend, com programação orientada a objetos, e bancos de dados. Sempre fiquei
+                                    fascinado por como computadores e aparelhos eletrônicos funcionam. Quando eu era
+                                    pequeno parecia mágica uma imagem ser transmitida numa tela,
+                                    e eu poder interagir com ela usando as minhas mãos pelo mouse e teclado. Hoje me
+                                    sinto empolgado cada vez que entendo como alguma coisa a mais funciona,
+                                    pois a "mágica" que eu via quando criança finalmente começa a fazer sentido.
+                                </p>
+                            </div>
+                            <a class="carousel-control-next" role="button" data-target="#myCarousel" data-slide-to="2"
+                                onclick="changeColor(2)">
+                                <img aria-hidden="true" src="images/arrow-down-sign-to-navigate.png" />
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fill" style="background-color: #1a1a1a">
+                                <h1>Habilidades</h1>
+                                <h3>Habilidades como desenvolvedor</h3>
+                                <p>
+                                    Conhecimento de estruturas de ordenação, busca e manipulação de dados em
+                                    memória principal, com prática em programação orientada a objetos
+                                    principalmente em Java.
+                                    Apto a planejar e desenvolver o front-end de sites dinâmicos e responsivos com
+                                    HTML5, CSS3, JavaScript, jQuery e Framework Bootstrap, e integrá-los a
+                                    APIs.
+                                    Programação de Arduino, sensores e atuadores digitais e analógicos.
+                                    Conhecimento básico de arquitetura de computadores, circuitos lógicos,
+                                    circuitos sequenciais e máquinas de estado.
+                                </p>
+                                <h3>E o que mais?</h3>
+                                <p>
+                                    Domínio de diversas línguas estrangeiras, cada uma em um nível diferente. Em ordem
+                                    decrescente
+                                    de proeficiência: Português nativo, Inglês fluente, Espanhol fluente, Francês
+                                    avançado,
+                                    Italiano intermediário, Alemão intermediário e Chinês básico. Além disso sou um
+                                    ótimo comunicador,
+                                    um bom líder, e adoro trabalhar em equipe.</br></br>
+                                    <a id="curriculum" target="_blank"
+                                        href="https://drive.google.com/file/d/1hXRKrVt6sD4AaKJjbYP1PehhpInmGjKV/view?usp=sharing">Para
+                                        mais detalhes, clique aqui para ver meu currículo em pdf</a>
+                                </p>
+
+                            </div>
+                            <a class="carousel-control-next" role="button" data-target="#myCarousel" data-slide-to="3"
+                                onclick="changeColor(3)">
+                                <img aria-hidden="true" src="images/arrow-down-sign-to-navigate.png" />
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fill" style="background-color: #1a1a1a">
+                                <h1>Contato</h1>
+                                <h3>O que estou buscando?</h3>
+                                <p>Empresas e recrutadores que estejam dispostos a acolher mentes jovens e criativas em
+                                    busca do primeiro emprego na área de tecnologia.
+                                    Busco um ambiente fértil para inovações, com pessoas que assim como eu, não se
+                                    contentam com o mínimo e buscam sempre melhorar.
+                                    Caso eu não possua alguma(s) das habilidades ou características que você ou sua
+                                    empresa busquem em um profissional, não deixe de me contatar, estou disposto a
+                                    aprender tecnologias novas e me aperfeiçoar.
+                                </p>
+                                <h3>Como entrar em contato?</h3>
+                                <p>Estarei contente em receber críticas e elogios ou responder dúvidas sobre meu site,
+                                    ou sobre mim, então sinta-se livre em entrar em contato.
+                                    Estou disponível nos seguintes meios de comunicação e redes sociais: </p>
+                                <p id="icons" style="padding: 0px;"><a target="_blank" href="tel:(31) 98269-3713"><i
+                                            class="fa fa-phone" aria-hidden="true"></i></a>
+                                    <a target="_blank" href="mailto:kallaslimaantunes@gmail.com"><i
+                                            class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                                    <a target="_blank"
+                                        href="https://www.linkedin.com/in/kallas-lima-antunes/?locale=pt_BR"><i
+                                            class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a target="_blank"
+                                        href="https://wa.me/5531982693713?text=Olá,%20Kallas,%20tudo%20bem?%20"><i
+                                            class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                    <a target="_blank" href="https://github.com/KallasAntunes"><i class="fa fa-github"
+                                            aria-hidden="true"></i></a>
+                                </p>
+                            </div>
+                            <a class="carousel-control-next" role="button" data-target="#myCarousel" data-slide-to="0"
+                                onclick="changeColor(0)">
+                                <img aria-hidden="true" src="images/arrow-down-sign-to-navigate.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------------Vertical Slider ends-------------------------->
+        <!-----------------------------------------Home ends------------------------------------>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+</DOCTYPE>

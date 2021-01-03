@@ -1,0 +1,192 @@
+<DOCTYPE HTML>
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Portfólio pessoal" />
+        <meta name="keywords" content="Desenvolvedor, Programador" />
+        <meta name="author" content="Kallas Lima Antunes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--title-->
+        <title>Kallas Antunes | Full Stack Developer</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" href="index.css" />
+        <script src="https://use.fontawesome.com/d48e94b070.js"></script>
+    </head>
+
+    <body>
+        <!-----------------------------------------Navbar begins------------------------------------>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1f1f1f">
+            <a class="navbar-brand" href="#"><img src="images/K.png" alt="logo" id="K" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!--onclick="increaseMargin()"-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li data-target="#myCarousel" data-slide-to="0" class="nav-item" onclick="changeColor(0)">
+                        <p class="nav-link" style="color: #af2b5a">
+                            <!--onclick="onLinkClick(0)"-->
+                            Home
+                        </p>
+                    </li>
+                    <li class="nav-item" data-target="#myCarousel" data-slide-to="1" onclick="changeColor(1)">
+                        <p class="nav-link">About me</p>
+                    </li>
+                    <li data-target="#myCarousel" data-slide-to="2" class="nav-item" onclick="changeColor(2)">
+                        <p class="nav-link">Skills</p>
+                    </li>
+                    <li data-target="#myCarousel" data-slide-to="3" class="nav-item" onclick="changeColor(3)">
+                        <p class="nav-link">Contact</p>
+                    </li>
+                </ul>
+                <a id="flag" href="index.html">
+                    <img src="images/brazil.png" alt="English" id="usa" />
+                </a>
+            </div>
+        </nav>
+        <!-----------------------------------------Navbar ends------------------------------------>
+        <!------------------------------------Vertical Slider begins-------------------------->
+        <section class="slide-wrapper">
+            <div class="container">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="fill" style="background-color: #1a1a1a">
+                                <h2 id="home">Kallas Lima Antunes</h2>
+                                <h3>More than just a coder, more than just a developer, a problem solver.</h3>
+                            </div>
+                            <a style="font-size: 120%;" id="seeMoreButton" class="carousel-control-next" role="button"
+                                data-target="#myCarousel" data-slide-to="1" onclick="changeColor(1)">See more
+                                <img style="position:relative;right: -15px;" aria-hidden="true"
+                                    src="images/arrow-down-sign-to-navigate-black.png" />
+                            </a>
+                        </div>
+                        <div class="carousel-item" style>
+                            <div class="fill" style="background-color: #1a1a1a">
+                                <h1>About me</h1>
+                                <h3>Who am I?</h3>
+                                <p>
+                                    Computer Engineering Student at PUC Minas and foreign languages enthusiast. I love
+                                    exploring new
+                                    cultures. I lived in the United States in the past, and still want to travel the
+                                    world.
+                                    I'm a dedicated and ambitious person, with great plans for my carrer and give
+                                    my best everyday to conquer my goals. In love with technology and sure
+                                    that I'm on the right career path. I enjoy exercising, playing videogames,
+                                    watching movies, and having a good time in general.
+                                </p>
+                                <h3>What about my relationship with technology?</h3>
+                                <p>
+                                    I love everything about computers, from hardware, in computer architecture and
+                                    IoT, to the front-end development, an also the
+                                    backend, with object-oriented programming and databases. I have always been fascinated 
+                                    by how computers and electronic devices work. When I was a kid, 
+                                    it looked like magic that an image could be transmited on a screen,
+                                    and I could interact with it using my hands on a mouse and a keyboard. Now I feel
+                                    excited everytime I get to understand how something electronic works,
+                                    because the "magic" I used to see as a kid finally starts to make sense.
+                                </p>
+                            </div>
+                            <a class="carousel-control-next" role="button" data-target="#myCarousel" data-slide-to="2"
+                                onclick="changeColor(2)">
+                                <img aria-hidden="true" src="images/arrow-down-sign-to-navigate.png" />
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fill" style="background-color: #1a1a1a">
+                                <h1>Skills</h1>
+                                <h3>Skills as a developer</h3>
+                                <p>
+                                    Knowledge on sorting, searching and manipulating data structures in
+                                    primary memory, with practice in object oriented programming, mainly in Java.
+                                    Able to plan and develop the front-end of dynamic and responsive websites by using
+                                    HTML5, CSS3, JavaScript, jQuery and Bootstrap, and make them interact with APIs.
+                                    Arduino programming, using digital and analogue sensors and actuators.
+                                    Basic knowledge in computer architecture, logic circuits, sequential circuits and
+                                    finite state machines
+                                <h3>What else?</h3>
+                                <p>
+                                    Mastery over many foreign languages, each one in a different level. In decreasing
+                                    proficiency level order: native Portuguese, fluent English, fluent Spanish, advanced
+                                    French,
+                                    intermediate Italian, intermediate German and basic Chinese. Besides that I'm a
+                                    great communicator,
+                                    a good leader, and enjoy team working.</br></br>
+                                    <a id="curriculum" target="_blank"
+                                        href="https://drive.google.com/file/d/1hXRKrVt6sD4AaKJjbYP1PehhpInmGjKV/view?usp=sharing">For
+                                        more details, click here to see my CV (only portuguese version for now).</a>
+                                </p>
+
+                            </div>
+                            <a class="carousel-control-next" role="button" data-target="#myCarousel" data-slide-to="3"
+                                onclick="changeColor(3)">
+                                <img aria-hidden="true" src="images/arrow-down-sign-to-navigate.png" />
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="fill" style="background-color: #1a1a1a">
+                                <h1>Contact</h1>
+                                <h3>What am I looking for?</h3>
+                                <p>Companies and recruiters that are willing to admit young and creative minds looking
+                                    for their first job in technology.
+                                    I'm looking for an innovation friendly environment, with people that like me, don't
+                                    settle for the minimum and always seek to improve.
+                                    In case I don't have one or some of the skills or characteristics that you or your
+                                    company need in a professional, don't let that stop you from contacting me, I'm
+                                    willing to
+                                    learn new technologies and to improve.
+                                </p>
+                                <h3>How to contact me?</h3>
+                                <p>I'll be glad to receive positive and negative feedback or to answer questions about
+                                    my website,
+                                    or about me, so feel free to contact me.
+                                    I'm available on the following medias: </p>
+                                <p id="icons" style="padding: 0px;"><a target="_blank" href="tel:(31) 98269-3713"><i
+                                            class="fa fa-phone" aria-hidden="true"></i></a>
+                                    <a target="_blank" href="mailto:kallaslimaantunes@gmail.com"><i
+                                            class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                                    <a target="_blank"
+                                        href="https://www.linkedin.com/in/kallas-lima-antunes/?locale=pt_BR"><i
+                                            class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a target="_blank"
+                                        href="https://wa.me/5531982693713?text=Olá,%20Kallas,%20tudo%20bem?%20"><i
+                                            class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                                    <a target="_blank" href="https://github.com/KallasAntunes"><i class="fa fa-github"
+                                            aria-hidden="true"></i></a>
+                                </p>
+                            </div>
+                            <a class="carousel-control-next" role="button" data-target="#myCarousel" data-slide-to="0"
+                                onclick="changeColor(0)">
+                                <img aria-hidden="true" src="images/arrow-down-sign-to-navigate.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------------Vertical Slider ends-------------------------->
+        <!-----------------------------------------Home ends------------------------------------>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+</DOCTYPE>

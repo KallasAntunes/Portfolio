@@ -381,3 +381,7 @@ a:hover {
 }
 
 /******************************************Contact ends************************************/
+::selection { background-color: #b4b3b3; }
+.nav-link::selection { background-color: transparent; }
+img::selection { background-color: transparent; }
+#seeMoreButton::selection { background-color: transparent; }
